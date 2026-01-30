@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "lastUpdated": "2026-01-30T00:00:00Z",
+  "items": [
+    {
+      "id": "v_ar_1",
+      "language": "ar",
+      "title": "أذان وصلاة الشيخ عبدالعزيز بن باز رحمه الله",
+      "subtitle": "تسجيل نادر ومؤثر",
+      "youtubeId": "YaEd1JI62MU",
+      "url": "https://www.youtube.com/watch?v=YaEd1JI62MU",
+      "thumbnailUrl": "https://img.youtube.com/vi/YaEd1JI62MU/hqdefault.jpg",
+      "kind": "video",
+      "enabled": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "v_ar_2",
+      "language": "ar",
+      "title": "هل الأذان واجب على الفرد؟",
+      "subtitle": "الشيخ ابن عثيمين رحمه الله",
+      "youtubeId": "sWTIyxvXzic",
+      "url": "https://www.youtube.com/watch?v=sWTIyxvXzic",
+      "thumbnailUrl": "https://img.youtube.com/vi/sWTIyxvXzic/hqdefault.jpg",
+      "kind": "video",
+      "enabled": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "v_ar_3",
+      "language": "ar",
+      "title": "نصيحة لمن يتهاون في الصلاة",
+      "subtitle": "الشيخ صالح الفوزان حفظه الله",
+      "youtubeId": "xtOA5OspWuM",
+      "url": "https://www.youtube.com/watch?v=xtOA5OspWuM",
+      "thumbnailUrl": "https://img.youtube.com/vi/xtOA5OspWuM/hqdefault.jpg",
+      "kind": "video",
+      "enabled": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "v_ar_4",
+      "language": "ar",
+      "title": "أذان الحرم المكي الشريف",
+      "subtitle": "مؤذن الحرم المكي",
+      "youtubeId": "7MCrNZUlqf0",
+      "url": "https://www.youtube.com/watch?v=7MCrNZUlqf0",
+      "thumbnailUrl": "https://img.youtube.com/vi/7MCrNZUlqf0/hqdefault.jpg",
+      "kind": "video",
+      "enabled": true,
+      "sortOrder": 4
+    },
+    {
+      "id": "v_en_1",
+      "language": "en",
+      "title": "The Beauty of Adhan",
+      "subtitle": "MercifulServant",
+      "youtubeId": "mJ0V0qjKpEc",
+      "url": "https://www.youtube.com/watch?v=mJ0V0qjKpEc",
+      "thumbnailUrl": "https://img.youtube.com/vi/mJ0V0qjKpEc/hqdefault.jpg",
+      "kind": "video",
+      "enabled": true,
+      "sortOrder": 5
+    },
+    {
+      "id": "v_en_2",
+      "language": "en",
+      "title": "The Power of the Adhan",
+      "subtitle": "Yaqeen Institute",
+      "youtubeId": "0wQ_JqYj3jY",
+      "url": "https://www.youtube.com/watch?v=0wQ_JqYj3jY",
+      "thumbnailUrl": "https://img.youtube.com/vi/0wQ_JqYj3jY/hqdefault.jpg",
+      "kind": "video",
+      "enabled": true,
+      "sortOrder": 6
+    },
+    {
+      "id": "v_en_3",
+      "language": "en",
+      "title": "5 Sunnahs of Adhan",
+      "subtitle": "One Islam Productions",
+      "youtubeId": "2an0z_rnbn4",
+      "url": "https://www.youtube.com/watch?v=2an0z_rnbn4",
+      "thumbnailUrl": "https://img.youtube.com/vi/2an0z_rnbn4/hqdefault.jpg",
+      "kind": "video",
+      "enabled": true,
+      "sortOrder": 7
+    },
+    {
+      "id": "v_en_4",
+      "language": "en",
+      "title": "Story of Bilal (RA)",
+      "subtitle": "The First Muadhin",
+      "youtubeId": "UpW_G7qiuLQ",
+      "url": "https://www.youtube.com/watch?v=UpW_G7qiuLQ",
+      "thumbnailUrl": "https://img.youtube.com/vi/UpW_G7qiuLQ/hqdefault.jpg",
+      "kind": "video",
+      "enabled": true,
+      "sortOrder": 8
+    }
+  ]
+}

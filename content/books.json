@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "lastUpdated": "2026-01-30T00:00:00Z",
+  "source": "King Fahd Quran Printing Complex",
+  "items": [
+    {
+      "id": "siraj_qari",
+      "nameAr": "سراج القارئ المبتدي وتذكار المقرئ المنتهي",
+      "nameEn": "Siraj Al-Qari",
+      "descriptionAr": "شرح متن الشاطبية في القراءات السبع",
+      "descriptionEn": "Commentary on Al-Shatibiyyah in the Seven Readings",
+      "icon": "book.closed.fill",
+      "iconPlatformMap": {
+        "ios": "book.closed.fill",
+        "android": "ic_book_closed",
+        "web": "menu_book"
+      },
+      "volumes": [
+        {
+          "id": "siraj_qari_1",
+          "labelAr": "الجزء الأول",
+          "labelEn": "Volume 1",
+          "pdfURL": "https://qurancomplex.gov.sa/wp-content/uploads/isdarat/books/sirj_qari_part_1.pdf"
+        },
+        {
+          "id": "siraj_qari_2",
+          "labelAr": "الجزء الثاني",
+          "labelEn": "Volume 2",
+          "pdfURL": "https://qurancomplex.gov.sa/wp-content/uploads/isdarat/books/sirj_qari_part_2.pdf"
+        },
+        {
+          "id": "siraj_qari_3",
+          "labelAr": "الجزء الثالث",
+          "labelEn": "Volume 3",
+          "pdfURL": "https://qurancomplex.gov.sa/wp-content/uploads/isdarat/books/sirj_qari_part_3.pdf"
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "tafseer_muyassar",
+      "nameAr": "التفسير الميسَّر",
+      "nameEn": "At-Tafsir Al-Muyassar",
+      "descriptionAr": "تفسير ميسّر لمعاني القرآن الكريم",
+      "descriptionEn": "Simplified interpretation of the Holy Quran",
+      "icon": "text.book.closed.fill",
+      "iconPlatformMap": {
+        "ios": "text.book.closed.fill",
+        "android": "ic_text_book",
+        "web": "auto_stories"
+      },
+      "volumes": [
+        {
+          "id": "tafseer_muyassar_1",
+          "labelAr": "التفسير الميسَّر",
+          "labelEn": "At-Tafsir Al-Muyassar",
+          "pdfURL": "https://qurancomplex.gov.sa/wp-content/uploads/isdarat/books/TafseerMuyassar.pdf"
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "ghareeb_muyassar",
+      "nameAr": "الميسَّر في غريب القرآن الكريم",
+      "nameEn": "Al-Muyassar fi Ghareeb Al-Quran",
+      "descriptionAr": "بيان معاني الكلمات الغريبة في القرآن",
+      "descriptionEn": "Clarification of uncommon words in the Quran",
+      "icon": "character.book.closed.fill",
+      "iconPlatformMap": {
+        "ios": "character.book.closed.fill",
+        "android": "ic_translate",
+        "web": "translate"
+      },
+      "volumes": [
+        {
+          "id": "ghareeb_muyassar_1",
+          "labelAr": "الميسَّر في غريب القرآن",
+          "labelEn": "Al-Muyassar fi Ghareeb Al-Quran",
+          "pdfURL": "https://qurancomplex.gov.sa/wp-content/uploads/isdarat/books/MuyassarGhareeb.pdf"
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "tajweed_muyassar",
+      "nameAr": "التجويد الميسَّر",
+      "nameEn": "At-Tajweed Al-Muyassar",
+      "descriptionAr": "أحكام التجويد بأسلوب ميسّر",
+      "descriptionEn": "Tajweed rules in a simplified manner",
+      "icon": "waveform.and.mic",
+      "iconPlatformMap": {
+        "ios": "waveform.and.mic",
+        "android": "ic_mic",
+        "web": "mic"
+      },
+      "volumes": [
+        {
+          "id": "tajweed_muyassar_1",
+          "labelAr": "التجويد الميسَّر",
+          "labelEn": "At-Tajweed Al-Muyassar",
+          "pdfURL": "https://qurancomplex.gov.sa/wp-content/uploads/isdarat/books/TajweedMuyassar.pdf"
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 4
+    },
+    {
+      "id": "usoul_eman",
+      "nameAr": "أصول الإيمان في ضوء الكتاب والسنة",
+      "nameEn": "Foundations of Faith",
+      "descriptionAr": "أصول الإيمان في ضوء الكتاب والسنة",
+      "descriptionEn": "Foundations of faith in light of the Quran and Sunnah",
+      "icon": "light.beacon.max.fill",
+      "iconPlatformMap": {
+        "ios": "light.beacon.max.fill",
+        "android": "ic_lightbulb",
+        "web": "lightbulb"
+      },
+      "volumes": [
+        {
+          "id": "usoul_eman_1",
+          "labelAr": "أصول الإيمان",
+          "labelEn": "Foundations of Faith",
+          "pdfURL": "https://qurancomplex.gov.sa/wp-content/uploads/isdarat/books/UsoulEman-Arabic.pdf"
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 5
+    },
+    {
+      "id": "thikr_duaa",
+      "nameAr": "الذكر والدعاء في ضوء الكتاب والسنة",
+      "nameEn": "Remembrance & Supplication",
+      "descriptionAr": "الأذكار والأدعية من الكتاب والسنة",
+      "descriptionEn": "Dhikr and Du'a from the Quran and Sunnah",
+      "icon": "hands.and.sparkles.fill",
+      "iconPlatformMap": {
+        "ios": "hands.and.sparkles.fill",
+        "android": "ic_hands",
+        "web": "volunteer_activism"
+      },
+      "volumes": [
+        {
+          "id": "thikr_duaa_1",
+          "labelAr": "الذكر والدعاء",
+          "labelEn": "Remembrance & Supplication",
+          "pdfURL": "https://qurancomplex.gov.sa/wp-content/uploads/isdarat/books/ThikrDuaa.pdf"
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 6
+    }
+  ]
+}

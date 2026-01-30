@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "lastUpdated": "2026-01-30T00:00:00Z",
+  "endpoints": {
+    "reciters_api": {
+      "baseUrl": "https://mp3quran.net/api/v3",
+      "description": "MP3 Quran reciters catalog API",
+      "classification": "api_endpoint",
+      "paths": {
+        "reciters": "/reciters?language=ar"
+      }
+    },
+    "quran_search_api": {
+      "baseUrl": "https://api.quran.com/api/v4",
+      "description": "Quran.com search and tafsir API",
+      "classification": "api_endpoint",
+      "paths": {
+        "search": "/search?q={query}&size={size}&page={page}",
+        "tafsir": "/tafsirs/{tafsirId}/by_ayah/{surah}:{ayah}"
+      }
+    },
+    "quran_audio_cdn": {
+      "baseUrl": "https://cdn.islamic.network/quran/audio",
+      "description": "Islamic Network per-ayah audio CDN",
+      "classification": "owned_cdn",
+      "note": "Used for text mushaf ayah-by-ayah playback"
+    },
+    "content_repo": {
+      "baseUrl": "https://raw.githubusercontent.com/mohamedaeldin/zad-content/main",
+      "description": "ZAD content repository (GitHub raw)",
+      "classification": "owned_cdn",
+      "note": "Primary content delivery source for runtime loading"
+    }
+  }
+}

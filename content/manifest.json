@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "lastUpdated": "2026-01-30T00:00:00Z",
+  "baseUrl": "https://raw.githubusercontent.com/mohamedaeldin/zad-content/main",
+  "minimumAppVersion": "1.0.0",
+
+  "content": [
+    {
+      "id": "books",
+      "file": "content/books.json",
+      "type": "metadata",
+      "sizeCategory": "metadata",
+      "description": "Quran-related books from King Fahd Complex",
+      "enabled": true,
+      "lifecycle": "active",
+      "sortOrder": 1,
+      "dependencies": [],
+      "checksum": ""
+    },
+    {
+      "id": "live_channels",
+      "file": "content/live_channels.json",
+      "type": "metadata",
+      "sizeCategory": "metadata",
+      "description": "Live TV and radio channels (Makkah, Madinah, Quran TV, radios)",
+      "enabled": true,
+      "lifecycle": "active",
+      "sortOrder": 2,
+      "dependencies": [],
+      "checksum": ""
+    },
+    {
+      "id": "adhan_sounds",
+      "file": "content/adhan_sounds.json",
+      "type": "metadata",
+      "sizeCategory": "metadata",
+      "description": "Adhan sound catalog (15 adhans, metadata only - audio files separate)",
+      "enabled": true,
+      "lifecycle": "active",
+      "sortOrder": 3,
+      "dependencies": [],
+      "checksum": ""
+    },
+    {
+      "id": "reciters_featured",
+      "file": "content/reciters_featured.json",
+      "type": "metadata",
+      "sizeCategory": "metadata",
+      "description": "Featured and hardcoded Quran reciters with mp3quran.net servers",
+      "enabled": true,
+      "lifecycle": "active",
+      "sortOrder": 4,
+      "dependencies": [],
+      "checksum": ""
+    },
+    {
+      "id": "quran_audio_sources",
+      "file": "content/quran_audio_sources.json",
+      "type": "metadata",
+      "sizeCategory": "metadata",
+      "description": "Per-ayah audio CDN sources for text mushaf player",
+      "enabled": true,
+      "lifecycle": "active",
+      "sortOrder": 5,
+      "dependencies": [],
+      "checksum": ""
+    },
+    {
+      "id": "after_adhan_videos",
+      "file": "content/after_adhan_videos.json",
+      "type": "metadata",
+      "sizeCategory": "metadata",
+      "description": "YouTube videos shown after adhan (Arabic + English)",
+      "enabled": true,
+      "lifecycle": "active",
+      "sortOrder": 6,
+      "dependencies": [],
+      "checksum": ""
+    },
+    {
+      "id": "itinerary_presets",
+      "file": "content/itinerary_presets.json",
+      "type": "metadata",
+      "sizeCategory": "metadata",
+      "description": "Built-in itinerary preset definitions (14 spiritual routine items)",
+      "enabled": true,
+      "lifecycle": "active",
+      "sortOrder": 7,
+      "dependencies": [],
+      "checksum": ""
+    },
+    {
+      "id": "api_endpoints",
+      "file": "content/api_endpoints.json",
+      "type": "config",
+      "sizeCategory": "metadata",
+      "description": "External API base URLs and CDN endpoints",
+      "enabled": true,
+      "lifecycle": "active",
+      "sortOrder": 8,
+      "dependencies": [],
+      "checksum": ""
+    }
+  ],
+
+  "featureFlags": {
+    "live_channels_enabled": true,
+    "books_enabled": true,
+    "after_adhan_videos_enabled": true,
+    "itinerary_enabled": true,
+    "quran_audio_enabled": true,
+    "adhan_sounds_enabled": true
+  },
+
+  "lifecycle": {
+    "states": ["active", "deprecated", "disabled", "removed"],
+    "minimumDisabledDays": 30,
+    "rules": {
+      "active": "Content is live and visible to users",
+      "deprecated": "Content is still visible but flagged for future removal; no new references allowed",
+      "disabled": "Content is hidden from users but data is preserved; must remain disabled for at least 30 days before removal",
+      "removed": "Content data has been physically deleted from the repository"
+    }
+  },
+
+  "sizeCategories": {
+    "metadata": { "maxBytes": 102400, "autoSync": true, "description": "< 100 KB - synced automatically" },
+    "standard": { "maxBytes": 1048576, "autoSync": true, "description": "100 KB - 1 MB - synced automatically" },
+    "heavy": { "maxBytes": null, "autoSync": false, "description": "> 1 MB - on-demand download only" },
+    "binary": { "maxBytes": null, "autoSync": false, "description": "Audio/image files - on-demand download only" }
+  }
+}

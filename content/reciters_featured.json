@@ -1,0 +1,280 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "lastUpdated": "2026-01-30T00:00:00Z",
+  "source": "mp3quran.net",
+  "items": [
+    {
+      "id": "minshawi",
+      "nameAr": "محمد صديق المنشاوي",
+      "nameEn": "Al-Minshawi",
+      "isFeatured": true,
+      "mpieces": [
+        {
+          "id": 5,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server10.mp3quran.net/minsh/",
+          "surahTotal": 114
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "abdulbasit",
+      "nameAr": "عبد الباسط عبد الصمد",
+      "nameEn": "Abdul Basit",
+      "isFeatured": true,
+      "mpieces": [
+        {
+          "id": 6,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server7.mp3quran.net/basit/",
+          "surahTotal": 114
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "banna",
+      "nameAr": "محمود علي البنا",
+      "nameEn": "Al-Banna",
+      "isFeatured": true,
+      "mpieces": [
+        {
+          "id": 7,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server8.mp3quran.net/bna/",
+          "surahTotal": 114
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "sudais",
+      "nameAr": "عبد الرحمن السديس",
+      "nameEn": "Al-Sudais",
+      "isFeatured": true,
+      "mpieces": [
+        {
+          "id": 8,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server11.mp3quran.net/sds/",
+          "surahTotal": 114
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 4
+    },
+    {
+      "id": "alijaber",
+      "nameAr": "علي جابر",
+      "nameEn": "Ali Jaber",
+      "isFeatured": true,
+      "mpieces": [
+        {
+          "id": 9,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server11.mp3quran.net/a_jbr/",
+          "surahTotal": 114
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 5
+    },
+    {
+      "id": "alafasy",
+      "nameAr": "مشاري العفاسي",
+      "nameEn": "Mishary Alafasy",
+      "isFeatured": true,
+      "mpieces": [
+        {
+          "id": 10,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server8.mp3quran.net/afs/",
+          "surahTotal": 114
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 6
+    },
+    {
+      "id": "hussary",
+      "nameAr": "محمود خليل الحصري",
+      "nameEn": "Al-Hussary",
+      "isFeatured": false,
+      "mpieces": [
+        {
+          "id": 11,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server13.mp3quran.net/husr/",
+          "surahTotal": 114
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 7
+    },
+    {
+      "id": "tablawi",
+      "nameAr": "محمد محمود الطبلاوي",
+      "nameEn": "Al-Tablawi",
+      "isFeatured": false,
+      "mpieces": [
+        {
+          "id": 12,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server12.mp3quran.net/tblawi/",
+          "surahTotal": 114
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 8
+    },
+    {
+      "id": "jibreel",
+      "nameAr": "محمد جبريل",
+      "nameEn": "Muhammad Jibreel",
+      "isFeatured": false,
+      "mpieces": [
+        {
+          "id": 13,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server8.mp3quran.net/jbrl/",
+          "surahTotal": 114
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 9
+    },
+    {
+      "id": "mustafaismail",
+      "nameAr": "مصطفى إسماعيل",
+      "nameEn": "Mustafa Ismail",
+      "isFeatured": false,
+      "mpieces": [
+        {
+          "id": 14,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server8.mp3quran.net/mustafa/",
+          "surahTotal": 114
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 10
+    },
+    {
+      "id": "shuraim",
+      "nameAr": "سعود الشريم",
+      "nameEn": "Saud Al-Shuraim",
+      "isFeatured": false,
+      "mpieces": [
+        {
+          "id": 16,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server7.mp3quran.net/shur/",
+          "surahTotal": 114
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 12
+    },
+    {
+      "id": "ghamdi",
+      "nameAr": "سعد الغامدي",
+      "nameEn": "Saad Al-Ghamdi",
+      "isFeatured": false,
+      "mpieces": [
+        {
+          "id": 17,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server7.mp3quran.net/s_gmd/",
+          "surahTotal": 114
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 13
+    },
+    {
+      "id": "muaiqly",
+      "nameAr": "ماهر المعيقلي",
+      "nameEn": "Maher Al-Muaiqly",
+      "isFeatured": false,
+      "mpieces": [
+        {
+          "id": 18,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server12.mp3quran.net/maher/",
+          "surahTotal": 114
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 14
+    },
+    {
+      "id": "huthaify",
+      "nameAr": "علي الحذيفي",
+      "nameEn": "Ali Al-Huthaify",
+      "isFeatured": false,
+      "mpieces": [
+        {
+          "id": 21,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server9.mp3quran.net/hthfi/",
+          "surahTotal": 114
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 17
+    },
+    {
+      "id": "ayyub",
+      "nameAr": "محمد أيوب",
+      "nameEn": "Muhammad Ayyub",
+      "isFeatured": false,
+      "mpieces": [
+        {
+          "id": 22,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server8.mp3quran.net/ayyub/",
+          "surahTotal": 114
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 18
+    },
+    {
+      "id": "dosari",
+      "nameAr": "ياسر الدوسري",
+      "nameEn": "Yasser Al-Dosari",
+      "isFeatured": false,
+      "mpieces": [
+        {
+          "id": 23,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server11.mp3quran.net/yasser/",
+          "surahTotal": 114
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 19
+    },
+    {
+      "id": "badrturki",
+      "nameAr": "بدر التركي",
+      "nameEn": "Badr Al-Turki",
+      "isFeatured": false,
+      "mpieces": [
+        {
+          "id": 24,
+          "name": "حفص عن عاصم - مرتل",
+          "server": "https://server10.mp3quran.net/bader/Rewayat-Hafs-A-n-Assem/",
+          "surahTotal": 114
+        }
+      ],
+      "enabled": true,
+      "sortOrder": 20
+    }
+  ]
+}

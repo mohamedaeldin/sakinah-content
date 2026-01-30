@@ -1,0 +1,282 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "lastUpdated": "2026-01-30T00:00:00Z",
+  "categories": ["core_daily", "weekly_special", "charity"],
+  "items": [
+    {
+      "id": "qiyam_al_layl",
+      "category": "core_daily",
+      "localizedTitleKey": "itinerary_preset_qiyam_al_layl",
+      "icon": "moon.stars.fill",
+      "iconPlatformMap": {
+        "ios": "moon.stars.fill",
+        "android": "ic_moon_stars",
+        "web": "nightlight"
+      },
+      "defaultRepeatRule": "daily",
+      "defaultTime": { "hour": 3, "minute": 30 },
+      "deepLink": "withallah://prayertimes",
+      "usesPrayerTimeCalculation": true,
+      "defaultPrayerTimeOffset": 15,
+      "variantCount": 6,
+      "isStarter": true,
+      "enabled": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "witr",
+      "category": "core_daily",
+      "localizedTitleKey": "itinerary_preset_witr",
+      "icon": "moon.fill",
+      "iconPlatformMap": {
+        "ios": "moon.fill",
+        "android": "ic_moon",
+        "web": "dark_mode"
+      },
+      "defaultRepeatRule": "daily",
+      "defaultTime": { "hour": 4, "minute": 0 },
+      "deepLink": "withallah://prayertimes",
+      "usesPrayerTimeCalculation": false,
+      "variantCount": 5,
+      "isStarter": false,
+      "enabled": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "quran_wird",
+      "category": "core_daily",
+      "localizedTitleKey": "itinerary_preset_quran_wird",
+      "icon": "book.fill",
+      "iconPlatformMap": {
+        "ios": "book.fill",
+        "android": "ic_book",
+        "web": "menu_book"
+      },
+      "defaultRepeatRule": "daily",
+      "defaultTime": { "hour": 5, "minute": 0 },
+      "deepLink": "withallah://quran",
+      "usesPrayerTimeCalculation": false,
+      "variantCount": 5,
+      "isStarter": true,
+      "enabled": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "morning_athkar",
+      "category": "core_daily",
+      "localizedTitleKey": "itinerary_preset_morning_athkar",
+      "icon": "sun.horizon.fill",
+      "iconPlatformMap": {
+        "ios": "sun.horizon.fill",
+        "android": "ic_sunrise",
+        "web": "wb_sunny"
+      },
+      "defaultRepeatRule": "daily",
+      "defaultTime": { "hour": 6, "minute": 0 },
+      "deepLink": "withallah://athkar",
+      "usesPrayerTimeCalculation": true,
+      "defaultPrayerTimeOffset": 15,
+      "variantCount": 5,
+      "isStarter": true,
+      "enabled": true,
+      "sortOrder": 4
+    },
+    {
+      "id": "evening_athkar",
+      "category": "core_daily",
+      "localizedTitleKey": "itinerary_preset_evening_athkar",
+      "icon": "sunset.fill",
+      "iconPlatformMap": {
+        "ios": "sunset.fill",
+        "android": "ic_sunset",
+        "web": "wb_twilight"
+      },
+      "defaultRepeatRule": "daily",
+      "defaultTime": { "hour": 17, "minute": 0 },
+      "deepLink": "withallah://athkar",
+      "usesPrayerTimeCalculation": true,
+      "defaultPrayerTimeOffset": 15,
+      "variantCount": 5,
+      "isStarter": true,
+      "enabled": true,
+      "sortOrder": 5
+    },
+    {
+      "id": "sleep_athkar",
+      "category": "core_daily",
+      "localizedTitleKey": "itinerary_preset_sleep_athkar",
+      "icon": "bed.double.fill",
+      "iconPlatformMap": {
+        "ios": "bed.double.fill",
+        "android": "ic_bed",
+        "web": "bed"
+      },
+      "defaultRepeatRule": "daily",
+      "defaultTime": { "hour": 22, "minute": 30 },
+      "deepLink": "withallah://athkar",
+      "usesPrayerTimeCalculation": false,
+      "variantCount": 5,
+      "isStarter": true,
+      "enabled": true,
+      "sortOrder": 6
+    },
+    {
+      "id": "salawat",
+      "category": "core_daily",
+      "localizedTitleKey": "itinerary_preset_salawat",
+      "icon": "heart.fill",
+      "iconPlatformMap": {
+        "ios": "heart.fill",
+        "android": "ic_heart",
+        "web": "favorite"
+      },
+      "defaultRepeatRule": "daily",
+      "defaultTime": { "hour": 12, "minute": 0 },
+      "deepLink": "withallah://athkar",
+      "usesPrayerTimeCalculation": false,
+      "variantCount": 5,
+      "isStarter": false,
+      "enabled": true,
+      "sortOrder": 7
+    },
+    {
+      "id": "friday_kahf",
+      "category": "weekly_special",
+      "localizedTitleKey": "itinerary_preset_friday_kahf",
+      "icon": "book.closed.fill",
+      "iconPlatformMap": {
+        "ios": "book.closed.fill",
+        "android": "ic_book_closed",
+        "web": "auto_stories"
+      },
+      "defaultRepeatRule": "friday_only",
+      "defaultTime": { "hour": 9, "minute": 0 },
+      "deepLink": "withallah://quran",
+      "usesPrayerTimeCalculation": false,
+      "variantCount": 4,
+      "isStarter": true,
+      "enabled": true,
+      "sortOrder": 8
+    },
+    {
+      "id": "friday_salawat",
+      "category": "weekly_special",
+      "localizedTitleKey": "itinerary_preset_friday_salawat",
+      "icon": "hands.sparkles.fill",
+      "iconPlatformMap": {
+        "ios": "hands.sparkles.fill",
+        "android": "ic_hands_sparkles",
+        "web": "volunteer_activism"
+      },
+      "defaultRepeatRule": "friday_only",
+      "defaultTime": { "hour": 11, "minute": 0 },
+      "deepLink": "withallah://athkar",
+      "usesPrayerTimeCalculation": false,
+      "variantCount": 4,
+      "isStarter": false,
+      "enabled": true,
+      "sortOrder": 9
+    },
+    {
+      "id": "monday_fasting",
+      "category": "weekly_special",
+      "localizedTitleKey": "itinerary_preset_monday_fasting",
+      "icon": "leaf.fill",
+      "iconPlatformMap": {
+        "ios": "leaf.fill",
+        "android": "ic_leaf",
+        "web": "eco"
+      },
+      "defaultRepeatRule": "specific_weekdays",
+      "defaultRepeatWeekdays": [2],
+      "defaultTime": { "hour": 4, "minute": 30 },
+      "deepLink": "withallah://itinerary",
+      "usesPrayerTimeCalculation": true,
+      "defaultPrayerTimeOffset": 15,
+      "variantCount": 4,
+      "isStarter": false,
+      "enabled": true,
+      "sortOrder": 10
+    },
+    {
+      "id": "thursday_fasting",
+      "category": "weekly_special",
+      "localizedTitleKey": "itinerary_preset_thursday_fasting",
+      "icon": "leaf.fill",
+      "iconPlatformMap": {
+        "ios": "leaf.fill",
+        "android": "ic_leaf",
+        "web": "eco"
+      },
+      "defaultRepeatRule": "specific_weekdays",
+      "defaultRepeatWeekdays": [5],
+      "defaultTime": { "hour": 4, "minute": 30 },
+      "deepLink": "withallah://itinerary",
+      "usesPrayerTimeCalculation": true,
+      "defaultPrayerTimeOffset": 15,
+      "variantCount": 4,
+      "isStarter": false,
+      "enabled": true,
+      "sortOrder": 11
+    },
+    {
+      "id": "sadaqah_daily",
+      "category": "charity",
+      "localizedTitleKey": "itinerary_preset_sadaqah_daily",
+      "icon": "hand.raised.fill",
+      "iconPlatformMap": {
+        "ios": "hand.raised.fill",
+        "android": "ic_hand_raised",
+        "web": "pan_tool"
+      },
+      "defaultRepeatRule": "daily",
+      "defaultTime": { "hour": 10, "minute": 0 },
+      "deepLink": "withallah://itinerary",
+      "usesPrayerTimeCalculation": false,
+      "variantCount": 4,
+      "isStarter": false,
+      "enabled": true,
+      "sortOrder": 12
+    },
+    {
+      "id": "sadaqah_friday",
+      "category": "charity",
+      "localizedTitleKey": "itinerary_preset_sadaqah_friday",
+      "icon": "hand.raised.fill",
+      "iconPlatformMap": {
+        "ios": "hand.raised.fill",
+        "android": "ic_hand_raised",
+        "web": "pan_tool"
+      },
+      "defaultRepeatRule": "friday_only",
+      "defaultTime": { "hour": 14, "minute": 0 },
+      "deepLink": "withallah://itinerary",
+      "usesPrayerTimeCalculation": false,
+      "variantCount": 4,
+      "isStarter": true,
+      "enabled": true,
+      "sortOrder": 13
+    },
+    {
+      "id": "sadaqah_monthly",
+      "category": "charity",
+      "localizedTitleKey": "itinerary_preset_sadaqah_monthly",
+      "icon": "hand.raised.fill",
+      "iconPlatformMap": {
+        "ios": "hand.raised.fill",
+        "android": "ic_hand_raised",
+        "web": "pan_tool"
+      },
+      "defaultRepeatRule": "monthly_day",
+      "defaultRepeatDayOfMonth": 1,
+      "defaultTime": { "hour": 10, "minute": 0 },
+      "deepLink": "withallah://itinerary",
+      "usesPrayerTimeCalculation": false,
+      "variantCount": 4,
+      "isStarter": false,
+      "enabled": true,
+      "sortOrder": 14
+    }
+  ]
+}

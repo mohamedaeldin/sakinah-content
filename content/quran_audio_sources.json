@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "lastUpdated": "2026-01-30T00:00:00Z",
+  "description": "Per-ayah audio CDN sources for the text mushaf player",
+  "urlPattern": "{baseUrl}/{ayahNumber}.mp3",
+  "items": [
+    {
+      "id": "mishari_rashid",
+      "nameAr": "مشاري العفاسي",
+      "nameEn": "Mishary Alafasy",
+      "baseUrl": "https://cdn.islamic.network/quran/audio/128/ar.alafasy",
+      "bitrate": 128,
+      "enabled": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "abdul_basit_murattal",
+      "nameAr": "عبد الباسط - مرتل",
+      "nameEn": "Abdul Basit (Murattal)",
+      "baseUrl": "https://cdn.islamic.network/quran/audio/64/ar.abdulbasitmurattal",
+      "bitrate": 64,
+      "enabled": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "abdul_basit_mujawwad",
+      "nameAr": "عبد الباسط - مجود",
+      "nameEn": "Abdul Basit (Mujawwad)",
+      "baseUrl": "https://cdn.islamic.network/quran/audio/64/ar.abdulsamad",
+      "bitrate": 64,
+      "enabled": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "mahmoud_khalil",
+      "nameAr": "محمود خليل الحصري",
+      "nameEn": "Mahmoud Khalil Al-Hussary",
+      "baseUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary",
+      "bitrate": 128,
+      "enabled": true,
+      "sortOrder": 4
+    },
+    {
+      "id": "sudais",
+      "nameAr": "عبد الرحمن السديس",
+      "nameEn": "Abdurrahman As-Sudais",
+      "baseUrl": "https://cdn.islamic.network/quran/audio/128/ar.abdurrahmaansudais",
+      "bitrate": 128,
+      "enabled": true,
+      "sortOrder": 5
+    },
+    {
+      "id": "shuraim",
+      "nameAr": "سعود الشريم",
+      "nameEn": "Saud Ash-Shuraim",
+      "baseUrl": "https://cdn.islamic.network/quran/audio/128/ar.shaatree",
+      "bitrate": 128,
+      "enabled": true,
+      "sortOrder": 6
+    },
+    {
+      "id": "maher_muaiqly",
+      "nameAr": "ماهر المعيقلي",
+      "nameEn": "Maher Al-Muaiqly",
+      "baseUrl": "https://cdn.islamic.network/quran/audio/128/ar.maaboraheem",
+      "bitrate": 128,
+      "enabled": true,
+      "sortOrder": 7
+    },
+    {
+      "id": "minshawi_muallim",
+      "nameAr": "محمد صديق المنشاوي - معلم",
+      "nameEn": "Al-Minshawi (Muallim)",
+      "baseUrl": "https://cdn.islamic.network/quran/audio/128/ar.minshawi",
+      "bitrate": 128,
+      "enabled": true,
+      "sortOrder": 8
+    }
+  ]
+}

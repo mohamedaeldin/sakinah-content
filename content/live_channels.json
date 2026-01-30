@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.2.0",
+  "lastUpdated": "2026-01-30T00:00:00Z",
+  "items": [
+    {
+      "id": "makkah_live",
+      "nameKey": "live_makkah",
+      "descriptionKey": "live_makkah_desc",
+      "countryKey": "country_saudi_arabia",
+      "localizedNames": {
+        "ar": "بث مباشر مكة المكرمة",
+        "en": "Makkah Live"
+      },
+      "localizedDescriptions": {
+        "ar": "بث مباشر من المسجد الحرام",
+        "en": "Live broadcast from Al-Masjid Al-Haram"
+      },
+      "streams": [
+        {
+          "url": "https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8",
+          "type": "hls",
+          "priority": 1,
+          "label": "StreamBrothers"
+        },
+        {
+          "url": "https://cdnlive.shooflive.tv:1935/makkah/makkah/playlist.m3u8",
+          "type": "hls",
+          "priority": 2,
+          "label": "Shooflive"
+        }
+      ],
+      "externalURL": "https://www.youtube.com/watch?v=NpI8VPf6bMg",
+      "icon": "building.columns.fill",
+      "iconPlatformMap": {
+        "ios": "building.columns.fill",
+        "android": "ic_mosque",
+        "web": "mosque"
+      },
+      "isLive": true,
+      "isAudioOnly": false,
+      "enabled": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "madinah_live",
+      "nameKey": "live_madinah",
+      "descriptionKey": "live_madinah_desc",
+      "countryKey": "country_saudi_arabia",
+      "localizedNames": {
+        "ar": "قناة السنة النبوية",
+        "en": "Al Sunnah Al Nabawiyah TV"
+      },
+      "localizedDescriptions": {
+        "ar": "بث مباشر من المسجد النبوي",
+        "en": "Live broadcast from Al-Masjid An-Nabawi"
+      },
+      "streams": [
+        {
+          "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
+          "type": "hls",
+          "priority": 1,
+          "label": "Akamaized"
+        },
+        {
+          "url": "https://cdnlive.shooflive.tv:1935/madina/madina/playlist.m3u8",
+          "type": "hls",
+          "priority": 2,
+          "label": "Shooflive"
+        }
+      ],
+      "externalURL": "https://www.youtube.com/watch?v=JIxBBNCMkaI",
+      "icon": "moon.stars.fill",
+      "iconPlatformMap": {
+        "ios": "moon.stars.fill",
+        "android": "ic_moon_stars",
+        "web": "nightlight"
+      },
+      "isLive": true,
+      "isAudioOnly": false,
+      "enabled": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "quran_tv",
+      "nameKey": "live_quran_tv",
+      "descriptionKey": "live_quran_tv_desc",
+      "countryKey": "country_saudi_arabia",
+      "localizedNames": {
+        "ar": "قناة القرآن الكريم",
+        "en": "Al Quran Al Kareem TV"
+      },
+      "localizedDescriptions": {
+        "ar": "البث المباشر لقناة القرآن الكريم",
+        "en": "Al Quran Al Kareem TV live broadcast"
+      },
+      "streams": [
+        {
+          "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8",
+          "type": "hls",
+          "priority": 1,
+          "label": "Akamaized"
+        },
+        {
+          "url": "https://edge66.magictvbox.com/liveApple/al_majd/tracks-v1a1/mono.m3u8",
+          "type": "hls",
+          "priority": 2,
+          "label": "MagicTVBox"
+        }
+      ],
+      "externalURL": "https://www.youtube.com/watch?v=SKixRhGsRGo",
+      "icon": "tv.fill",
+      "iconPlatformMap": {
+        "ios": "tv.fill",
+        "android": "ic_tv",
+        "web": "tv"
+      },
+      "isLive": true,
+      "isAudioOnly": false,
+      "enabled": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "quran_radio",
+      "nameKey": "live_quran_radio",
+      "descriptionKey": "live_quran_radio_desc",
+      "countryKey": "country_saudi_arabia",
+      "localizedNames": {
+        "ar": "إذاعة القرآن الكريم",
+        "en": "Quran Radio"
+      },
+      "localizedDescriptions": {
+        "ar": "بث مباشر لإذاعة القرآن الكريم",
+        "en": "Quran Radio live broadcast"
+      },
+      "streams": [
+        {
+          "url": "https://backup.qurango.net/radio/tarateel",
+          "type": "audio",
+          "priority": 1,
+          "label": "Qurango"
+        }
+      ],
+      "externalURL": "https://www.mp3quran.net/ar/radio",
+      "icon": "radio.fill",
+      "iconPlatformMap": {
+        "ios": "radio.fill",
+        "android": "ic_radio",
+        "web": "radio"
+      },
+      "isLive": true,
+      "isAudioOnly": true,
+      "enabled": true,
+      "sortOrder": 4
+    },
+    {
+      "id": "quran_radio_cairo",
+      "nameKey": "live_quran_radio_cairo",
+      "descriptionKey": "live_quran_radio_cairo_desc",
+      "countryKey": "country_egypt",
+      "localizedNames": {
+        "ar": "إذاعة القرآن الكريم من القاهرة",
+        "en": "Quran Radio Cairo"
+      },
+      "localizedDescriptions": {
+        "ar": "بث مباشر من القاهرة",
+        "en": "Live broadcast from Cairo"
+      },
+      "streams": [
+        {
+          "url": "https://stream.radiojar.com/8s5u5tpdtwzuv",
+          "type": "audio",
+          "priority": 1,
+          "label": "RadioJar"
+        },
+        {
+          "url": "https://n03.radiojar.com/8s5u5tpdtwzuv",
+          "type": "audio",
+          "priority": 2,
+          "label": "RadioJar Mirror"
+        }
+      ],
+      "externalURL": "https://www.maspero.eg/stream/7",
+      "icon": "radio.fill",
+      "iconPlatformMap": {
+        "ios": "radio.fill",
+        "android": "ic_radio",
+        "web": "radio"
+      },
+      "isLive": true,
+      "isAudioOnly": true,
+      "enabled": true,
+      "sortOrder": 5
+    }
+  ]
+}
