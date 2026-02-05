@@ -55,12 +55,6 @@
           "type": "hls",
           "priority": 1,
           "label": "Akamaized"
-        },
-        {
-          "url": "https://cdnlive.shooflive.tv:1935/madina/madina/playlist.m3u8",
-          "type": "hls",
-          "priority": 2,
-          "label": "Shooflive"
         }
       ],
       "externalURL": "https://www.youtube.com/watch?v=JIxBBNCMkaI",
@@ -162,16 +156,16 @@
       },
       "streams": [
         {
-          "url": "https://stream.radiojar.com/8s5u5tpdtwzuv",
+          "url": "https://stream.zeno.fm/yn65fsaurfhvv",
           "type": "audio",
           "priority": 1,
-          "label": "RadioJar"
+          "label": "ZenoFM"
         },
         {
-          "url": "https://n03.radiojar.com/8s5u5tpdtwzuv",
+          "url": "https://qurango.net/radio/tarateel",
           "type": "audio",
           "priority": 2,
-          "label": "RadioJar Mirror"
+          "label": "Qurango"
         }
       ],
       "externalURL": "https://www.maspero.eg/stream/7",
