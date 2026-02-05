@@ -18,19 +18,13 @@
       },
       "streams": [
         {
-          "url": "https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8",
+          "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8",
           "type": "hls",
           "priority": 1,
-          "label": "StreamBrothers"
-        },
-        {
-          "url": "https://cdnlive.shooflive.tv:1935/makkah/makkah/playlist.m3u8",
-          "type": "hls",
-          "priority": 2,
-          "label": "Shooflive"
+          "label": "Akamaized"
         }
       ],
-      "externalURL": "https://www.youtube.com/watch?v=NpI8VPf6bMg",
+      "externalURL": "https://www.youtube.com/watch?v=Cm1v4bteXbI",
       "icon": "building.columns.fill",
       "iconPlatformMap": {
         "ios": "building.columns.fill",
