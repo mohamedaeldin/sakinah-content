@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "contentVersion": "1.0.0",
-  "lastUpdated": "2026-01-30T00:00:00Z",
+  "contentVersion": "1.1.0",
+  "lastUpdated": "2026-02-19T00:00:00Z",
   "baseUrl": "https://raw.githubusercontent.com/mohamedaeldin/tatmaen-content/main",
   "minimumAppVersion": "1.0.0",
 
@@ -125,6 +125,54 @@
       "sortOrder": 10,
       "dependencies": [],
       "checksum": ""
+    },
+    {
+      "id": "athkar_categories",
+      "file": "content/athkar_categories.json",
+      "type": "metadata",
+      "sizeCategory": "metadata",
+      "description": "Athkar categories from Hisn al-Muslim (43 categories, multilingual)",
+      "enabled": true,
+      "lifecycle": "active",
+      "sortOrder": 11,
+      "dependencies": [],
+      "checksum": ""
+    },
+    {
+      "id": "athkar_adhkar",
+      "file": "content/athkar_adhkar.json",
+      "type": "metadata",
+      "sizeCategory": "standard",
+      "description": "All adhkar content from Hisn al-Muslim (multilingual, benefits, references)",
+      "enabled": true,
+      "lifecycle": "active",
+      "sortOrder": 12,
+      "dependencies": ["athkar_categories"],
+      "checksum": ""
+    },
+    {
+      "id": "dua_categories",
+      "file": "content/dua_categories.json",
+      "type": "metadata",
+      "sizeCategory": "metadata",
+      "description": "Dua categories (19 categories, multilingual)",
+      "enabled": true,
+      "lifecycle": "active",
+      "sortOrder": 13,
+      "dependencies": [],
+      "checksum": ""
+    },
+    {
+      "id": "dua_duas",
+      "file": "content/dua_duas.json",
+      "type": "metadata",
+      "sizeCategory": "standard",
+      "description": "All duas with references and translations (208 duas)",
+      "enabled": true,
+      "lifecycle": "active",
+      "sortOrder": 14,
+      "dependencies": ["dua_categories"],
+      "checksum": ""
     }
   ],
 
@@ -136,7 +184,9 @@
     "quran_audio_enabled": true,
     "adhan_sounds_enabled": true,
     "youtube_playlists_enabled": true,
-    "youtube_podcasts_enabled": true
+    "youtube_podcasts_enabled": true,
+    "athkar_enabled": true,
+    "dua_enabled": true
   },
 
   "lifecycle": {
