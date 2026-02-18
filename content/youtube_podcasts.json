@@ -1,21 +1,49 @@
 {
   "schemaVersion": "1.0.0",
-  "contentVersion": "1.0.0",
-  "lastUpdated": "2026-01-30T00:00:00Z",
+  "contentVersion": "1.3.2",
+  "lastUpdated": "2026-02-18T00:00:00Z",
   "items": [
     {
       "id": "amr_khaled",
       "nameAr": "عمرو خالد",
       "nameEn": "Amr Khaled",
       "imageAsset": "owner_amr_khaled",
-      "imageURL": "https://yt3.ggpht.com/wF5iu5lPqmdf5aucG9cTrhfl-X96rkCxCkjig9vNBh6xbrUEGCPVJchxNBHeqmqPN9UbHDz7=s800-c-k-c0x00ffffff-no-rj",
+      "imageURL": "https://yt3.googleusercontent.com/8XKFPou3pLzDImQNyxO_CdYPebGZ8k46VyJZiWfZ9Lfkp9tTntdnNGiX_KkAxNW42vzQCJ7HLw=s800-c-k-c0x00ffffff-no-rj",
       "playlists": [
-        { "playlistId": "PLhbs8A5De9zRZ8kBbUKB372e0m7jJ0A76", "firstVideoId": "HIvCnWbpZ7s" },
-        { "playlistId": "PLhbs8A5De9zQqWnb0QhgyApV0yCzpTbJa", "firstVideoId": "2t12P31OqT4" },
-        { "playlistId": "PLhbs8A5De9zSv0thJlmTqPwvgooaKMw4S", "firstVideoId": "zQLwz2XPI1E" },
-        { "playlistId": "PLhbs8A5De9zSJFsHcMdpzO98BLmhOfVyd", "firstVideoId": "g0PWpr7Q5b0" }
+        {
+          "playlistId": "PLhbs8A5De9zRcckx_AYBvPtIiGVxkO-tg",
+          "firstVideoId": "i4IddjQHF-8"
+        },
+        {
+          "playlistId": "PLhbs8A5De9zRZ8kBbUKB372e0m7jJ0A76",
+          "firstVideoId": "HIvCnWbpZ7s"
+        },
+        {
+          "playlistId": "PLhbs8A5De9zQFjJmTAsZnLPwKcmdfySlG",
+          "firstVideoId": "NtZupF-OFYE"
+        },
+        {
+          "playlistId": "PLhbs8A5De9zQqWnb0QhgyApV0yCzpTbJa",
+          "firstVideoId": "2t12P31OqT4"
+        },
+        {
+          "playlistId": "PLhbs8A5De9zTHciGs-JKYwbZWlllkh2DK",
+          "firstVideoId": "IYrralr-N7I"
+        },
+        {
+          "playlistId": "PLhbs8A5De9zSv0thJlmTqPwvgooaKMw4S",
+          "firstVideoId": "zQLwz2XPI1E"
+        },
+        {
+          "playlistId": "PLhbs8A5De9zSJFsHcMdpzO98BLmhOfVyd",
+          "firstVideoId": "g0PWpr7Q5b0"
+        },
+        {
+          "playlistId": "PLhbs8A5De9zT53_h_PcOQTvCsiXqE9wqo",
+          "firstVideoId": "rd_53eZ-j8E"
+        }
       ],
-      "enabled": false,
+      "enabled": true,
       "sortOrder": 1
     },
     {
@@ -25,7 +53,10 @@
       "imageAsset": "owner_fahem",
       "imageURL": "https://yt3.ggpht.com/UGcuE6niVr5GTJ6W_bqKltzDd2WYI041p5bXufQSionkuquqpE1_w22ZmfMmhFvyjTBe1YKi9A=s800-c-k-c0x00ffffff-no-rj",
       "playlists": [
-        { "playlistId": "PLSFJcWy6euuCVCCDoku7xlV3BbzujmZQx", "firstVideoId": "qoiMDzxlImE" }
+        {
+          "playlistId": "PLSFJcWy6euuCVCCDoku7xlV3BbzujmZQx",
+          "firstVideoId": "qoiMDzxlImE"
+        }
       ],
       "enabled": true,
       "sortOrder": 2
