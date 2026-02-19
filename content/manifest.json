@@ -211,8 +211,8 @@
       "checksum": ""
     },
     {
-      "id": "prayer_hub_ahadith",
-      "file": "content/prayer_hub_ahadith.json",
+      "id": "prayer_ahadith",
+      "file": "content/prayer_ahadith.json",
       "type": "metadata",
       "sizeCategory": "metadata",
       "description": "Ahadith related to prayer virtues and rulings (multilingual)",
@@ -250,7 +250,7 @@
     "names_of_allah_enabled": true,
     "fasting_types_enabled": true,
     "islamic_events_enabled": true,
-    "prayer_hub_ahadith_enabled": true,
+    "prayer_ahadith_enabled": true,
     "prayer_hub_wudu_enabled": true
   },
 
