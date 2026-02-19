@@ -223,8 +223,8 @@
       "checksum": ""
     },
     {
-      "id": "prayer_hub_wudu",
-      "file": "content/prayer_hub_wudu.json",
+      "id": "wudu_steps",
+      "file": "content/wudu_steps.json",
       "type": "metadata",
       "sizeCategory": "metadata",
       "description": "Wudu (ablution) step-by-step guide with descriptions (multilingual)",
@@ -251,7 +251,7 @@
     "fasting_types_enabled": true,
     "islamic_events_enabled": true,
     "prayer_ahadith_enabled": true,
-    "prayer_hub_wudu_enabled": true
+    "wudu_steps_enabled": true
   },
 
   "lifecycle": {
