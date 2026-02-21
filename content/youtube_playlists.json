@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "contentVersion": "2.0.0",
+  "contentVersion": "2.1.0",
   "lastUpdated": "2026-02-21T00:00:00Z",
   "items": [
     {
@@ -1152,7 +1152,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 1
+      "sortOrder": 5
     },
     {
       "id": "mustafa_hosny",
@@ -2482,7 +2482,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 3
+      "sortOrder": 1
     },
     {
       "id": "ramadan_abdelmoez",
@@ -2549,7 +2549,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 6
+      "sortOrder": 13
     },
     {
       "id": "ramadan_abdelrazik",
@@ -2784,7 +2784,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 7
+      "sortOrder": 11
     },
     {
       "id": "dawlat_al_tilawa",
@@ -2803,7 +2803,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 10
+      "sortOrder": 15
     },
     {
       "id": "amr_mahran",
@@ -3098,7 +3098,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 8
+      "sortOrder": 16
     },
     {
       "id": "qatayef_sameh_hussein",
@@ -3117,7 +3117,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 11
+      "sortOrder": 8
     },
     {
       "id": "gaber_baghdadi",
@@ -3300,7 +3300,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 5
+      "sortOrder": 7
     },
     {
       "id": "alaa_jaber",
@@ -3331,7 +3331,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 4
+      "sortOrder": 12
     },
     {
       "id": "ahmad_alsabouni",
@@ -3350,7 +3350,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 9
+      "sortOrder": 6
     },
     {
       "id": "jannah_institute",
@@ -3721,7 +3721,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 14
+      "sortOrder": 9
     },
     {
       "id": "aibra_tv",
@@ -3736,7 +3736,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 15
+      "sortOrder": 17
     },
     {
       "id": "mahfouf",
@@ -3751,7 +3751,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 16
+      "sortOrder": 10
     },
     {
       "id": "alghafri",
@@ -3778,7 +3778,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 17
+      "sortOrder": 4
     },
     {
       "id": "maktba_studio",
@@ -3801,7 +3801,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 18
+      "sortOrder": 14
     },
     {
       "id": "othman_alkamees",
@@ -5484,7 +5484,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 19
+      "sortOrder": 3
     }
   ]
 }

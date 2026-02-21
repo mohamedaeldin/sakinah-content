@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "contentVersion": "1.7.0",
+  "contentVersion": "1.8.0",
   "lastUpdated": "2026-02-21T00:00:00Z",
   "items": [
     {
@@ -44,7 +44,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 1
+      "sortOrder": 2
     },
     {
       "id": "fahem",
@@ -78,7 +78,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 2
+      "sortOrder": 5
     },
     {
       "id": "jannah_institute",
@@ -116,7 +116,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 5
+      "sortOrder": 6
     },
     {
       "id": "alghafri",
@@ -131,7 +131,7 @@
         }
       ],
       "enabled": true,
-      "sortOrder": 6
+      "sortOrder": 1
     }
   ]
 }
