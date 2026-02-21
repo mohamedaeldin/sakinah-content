@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "contentVersion": "1.2.0",
-  "lastUpdated": "2026-01-30T00:00:00Z",
+  "contentVersion": "2.0.0",
+  "lastUpdated": "2026-02-21T00:00:00Z",
   "items": [
     {
       "id": "makkah_live",
@@ -179,6 +179,270 @@
       "isAudioOnly": true,
       "enabled": true,
       "sortOrder": 5
+    },
+    {
+      "id": "almajd_quran",
+      "nameKey": "live_almajd_quran",
+      "descriptionKey": "live_almajd_quran_desc",
+      "countryKey": "country_saudi_arabia",
+      "localizedNames": {
+        "ar": "قناة المجد للقرآن",
+        "en": "Al Majd Quran TV"
+      },
+      "localizedDescriptions": {
+        "ar": "بث مباشر للقرآن الكريم وبرامج إسلامية",
+        "en": "24/7 Quran recitation and Islamic programming"
+      },
+      "streams": [
+        {
+          "url": "https://edge66.magictvbox.com/liveApple/al_majd/tracks-v1a1/mono.m3u8",
+          "type": "hls",
+          "priority": 1,
+          "label": "MagicTV"
+        }
+      ],
+      "externalURL": "https://almajd.tv/",
+      "icon": "tv.fill",
+      "iconPlatformMap": {
+        "ios": "tv.fill",
+        "android": "ic_tv",
+        "web": "tv"
+      },
+      "isLive": true,
+      "isAudioOnly": false,
+      "enabled": true,
+      "sortOrder": 6
+    },
+    {
+      "id": "iqraa_quran",
+      "nameKey": "live_iqraa_quran",
+      "descriptionKey": "live_iqraa_quran_desc",
+      "countryKey": "country_saudi_arabia",
+      "localizedNames": {
+        "ar": "قناة إقرأ",
+        "en": "Iqraa TV"
+      },
+      "localizedDescriptions": {
+        "ar": "قناة ثقافية وتعليمية إسلامية",
+        "en": "Islamic cultural and educational channel"
+      },
+      "streams": [
+        {
+          "url": "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8",
+          "type": "hls",
+          "priority": 1,
+          "label": "FastTV"
+        }
+      ],
+      "externalURL": "https://iqraa.com/",
+      "icon": "tv.fill",
+      "iconPlatformMap": {
+        "ios": "tv.fill",
+        "android": "ic_tv",
+        "web": "tv"
+      },
+      "isLive": true,
+      "isAudioOnly": false,
+      "enabled": true,
+      "sortOrder": 7
+    },
+    {
+      "id": "radio_abdulbasit",
+      "nameKey": "live_radio_abdulbasit",
+      "descriptionKey": "live_radio_abdulbasit_desc",
+      "countryKey": "country_online",
+      "localizedNames": {
+        "ar": "إذاعة عبدالباسط",
+        "en": "Radio Abdul Basit"
+      },
+      "localizedDescriptions": {
+        "ar": "تلاوات مستمرة للشيخ عبدالباسط عبدالصمد",
+        "en": "24/7 Quran recitation by Abdul Basit Abdus Samad"
+      },
+      "streams": [
+        {
+          "url": "https://backup.qurango.net/radio/abdulbasit_abdulsamad",
+          "type": "audio",
+          "priority": 1,
+          "label": "Qurango"
+        }
+      ],
+      "externalURL": "https://mp3quran.net/eng/radios",
+      "icon": "radio.fill",
+      "iconPlatformMap": {
+        "ios": "radio.fill",
+        "android": "ic_radio",
+        "web": "radio"
+      },
+      "isLive": true,
+      "isAudioOnly": true,
+      "enabled": true,
+      "sortOrder": 8
+    },
+    {
+      "id": "radio_alafasy",
+      "nameKey": "live_radio_alafasy",
+      "descriptionKey": "live_radio_alafasy_desc",
+      "countryKey": "country_online",
+      "localizedNames": {
+        "ar": "إذاعة مشاري العفاسي",
+        "en": "Radio Mishary Alafasy"
+      },
+      "localizedDescriptions": {
+        "ar": "تلاوات مستمرة للشيخ مشاري راشد العفاسي",
+        "en": "24/7 Quran recitation by Mishary Rashid Alafasy"
+      },
+      "streams": [
+        {
+          "url": "https://backup.qurango.net/radio/mishary_alafasi",
+          "type": "audio",
+          "priority": 1,
+          "label": "Qurango"
+        }
+      ],
+      "externalURL": "https://mp3quran.net/eng/radios",
+      "icon": "radio.fill",
+      "iconPlatformMap": {
+        "ios": "radio.fill",
+        "android": "ic_radio",
+        "web": "radio"
+      },
+      "isLive": true,
+      "isAudioOnly": true,
+      "enabled": true,
+      "sortOrder": 9
+    },
+    {
+      "id": "radio_sudais",
+      "nameKey": "live_radio_sudais",
+      "descriptionKey": "live_radio_sudais_desc",
+      "countryKey": "country_online",
+      "localizedNames": {
+        "ar": "إذاعة السديس",
+        "en": "Radio Al Sudais"
+      },
+      "localizedDescriptions": {
+        "ar": "تلاوات مستمرة للشيخ عبدالرحمن السديس",
+        "en": "24/7 Quran recitation by Abdulrahman Al Sudais"
+      },
+      "streams": [
+        {
+          "url": "https://backup.qurango.net/radio/abdulrahman_alsudaes",
+          "type": "audio",
+          "priority": 1,
+          "label": "Qurango"
+        }
+      ],
+      "externalURL": "https://mp3quran.net/eng/radios",
+      "icon": "radio.fill",
+      "iconPlatformMap": {
+        "ios": "radio.fill",
+        "android": "ic_radio",
+        "web": "radio"
+      },
+      "isLive": true,
+      "isAudioOnly": true,
+      "enabled": true,
+      "sortOrder": 10
+    },
+    {
+      "id": "radio_ghamdi",
+      "nameKey": "live_radio_ghamdi",
+      "descriptionKey": "live_radio_ghamdi_desc",
+      "countryKey": "country_online",
+      "localizedNames": {
+        "ar": "إذاعة سعد الغامدي",
+        "en": "Radio Saad Al Ghamdi"
+      },
+      "localizedDescriptions": {
+        "ar": "تلاوات مستمرة للشيخ سعد الغامدي",
+        "en": "24/7 Quran recitation by Saad Al Ghamdi"
+      },
+      "streams": [
+        {
+          "url": "https://backup.qurango.net/radio/saad_alghamdi",
+          "type": "audio",
+          "priority": 1,
+          "label": "Qurango"
+        }
+      ],
+      "externalURL": "https://mp3quran.net/eng/radios",
+      "icon": "radio.fill",
+      "iconPlatformMap": {
+        "ios": "radio.fill",
+        "android": "ic_radio",
+        "web": "radio"
+      },
+      "isLive": true,
+      "isAudioOnly": true,
+      "enabled": true,
+      "sortOrder": 11
+    },
+    {
+      "id": "radio_tafseer",
+      "nameKey": "live_radio_tafseer",
+      "descriptionKey": "live_radio_tafseer_desc",
+      "countryKey": "country_online",
+      "localizedNames": {
+        "ar": "إذاعة تفسير القرآن",
+        "en": "Quran Tafseer Radio"
+      },
+      "localizedDescriptions": {
+        "ar": "تلاوة القرآن الكريم مع التفسير",
+        "en": "24/7 Quran recitation with scholarly interpretation"
+      },
+      "streams": [
+        {
+          "url": "https://backup.qurango.net/radio/tafseer",
+          "type": "audio",
+          "priority": 1,
+          "label": "Qurango"
+        }
+      ],
+      "externalURL": "https://mp3quran.net/eng/radios",
+      "icon": "book.fill",
+      "iconPlatformMap": {
+        "ios": "book.fill",
+        "android": "ic_book",
+        "web": "book"
+      },
+      "isLive": true,
+      "isAudioOnly": true,
+      "enabled": true,
+      "sortOrder": 12
+    },
+    {
+      "id": "radio_translation",
+      "nameKey": "live_radio_translation",
+      "descriptionKey": "live_radio_translation_desc",
+      "countryKey": "country_online",
+      "localizedNames": {
+        "ar": "إذاعة ترجمة القرآن",
+        "en": "Quran Translation Radio"
+      },
+      "localizedDescriptions": {
+        "ar": "تلاوة القرآن الكريم مع الترجمة الإنجليزية",
+        "en": "Quran recitation with English translation"
+      },
+      "streams": [
+        {
+          "url": "https://backup.qurango.net/radio/translation_quran_english_basit",
+          "type": "audio",
+          "priority": 1,
+          "label": "Qurango"
+        }
+      ],
+      "externalURL": "https://mp3quran.net/eng/radios",
+      "icon": "character.book.closed.fill",
+      "iconPlatformMap": {
+        "ios": "character.book.closed.fill",
+        "android": "ic_translate",
+        "web": "translate"
+      },
+      "isLive": true,
+      "isAudioOnly": true,
+      "enabled": true,
+      "sortOrder": 13
     }
   ]
 }
