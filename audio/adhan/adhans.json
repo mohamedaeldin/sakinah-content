@@ -1,0 +1,132 @@
+[
+  {
+    "fileName": "makkah",
+    "titleAr": "أذان مكة المكرمة",
+    "titleEn": "Makkah Al-Haram"
+  },
+  {
+    "fileName": "madinah",
+    "titleAr": "أذان المدينة المنورة",
+    "titleEn": "Madinah Al-Nabawi"
+  },
+  {
+    "fileName": "farooq_hadrawi",
+    "titleAr": "أذان فاروق حضراوي",
+    "titleEn": "Farooq Hadrawi"
+  },
+  {
+    "fileName": "essam_bukhari",
+    "titleAr": "أذان عصام بخاري",
+    "titleEn": "Essam Bukhari"
+  },
+  {
+    "fileName": "majed_hakim",
+    "titleAr": "أذان ماجد حكيم",
+    "titleEn": "Majed Hakim"
+  },
+  {
+    "fileName": "abdulbasit",
+    "titleAr": "أذان عبدالباسط عبدالصمد",
+    "titleEn": "Abdul Basit Abdul Samad"
+  },
+  {
+    "fileName": "muhammad_refaat",
+    "titleAr": "أذان محمد رفعت",
+    "titleEn": "Muhammad Refaat"
+  },
+  {
+    "fileName": "mishary",
+    "titleAr": "أذان مشاري العفاسي",
+    "titleEn": "Mishary Al Afasy"
+  },
+  {
+    "fileName": "nasser_alqatami",
+    "titleAr": "أذان ناصر القطامي",
+    "titleEn": "Nasser Al Qatami"
+  },
+  {
+    "fileName": "ahmad_alnufais",
+    "titleAr": "أذان أحمد النفيس",
+    "titleEn": "Ahmad Al-Nufais"
+  },
+  {
+    "fileName": "egypt",
+    "titleAr": "أذان حسين الشحات",
+    "titleEn": "Hussain Shahat"
+  },
+  {
+    "fileName": "mohammed_ghazali",
+    "titleAr": "أذان محمد الغزالي",
+    "titleEn": "Mohammed Ghazali"
+  },
+  {
+    "fileName": "junaid_chapti",
+    "titleAr": "أذان جنيد شابتي",
+    "titleEn": "Junaid Chapti"
+  },
+  {
+    "fileName": "faisal_latif",
+    "titleAr": "أذان فيصل لطيف",
+    "titleEn": "Faisal Latif"
+  },
+  {
+    "fileName": "al_ossi",
+    "titleAr": "أذان العصي",
+    "titleEn": "Al-Ossi"
+  },
+  {
+    "fileName": "egypt_classic",
+    "titleAr": "أذان مصري كلاسيكي",
+    "titleEn": "Egyptian Classic"
+  },
+  {
+    "fileName": "egypt_traditional",
+    "titleAr": "أذان مصري تقليدي",
+    "titleEn": "Egyptian Traditional"
+  },
+  {
+    "fileName": "mevlan",
+    "titleAr": "أذان تركي - مولانا",
+    "titleEn": "Turkish - Mevlan Kurtishi"
+  },
+  {
+    "fileName": "ahmad_khoja",
+    "titleAr": "أذان شامي - أحمد خوجة",
+    "titleEn": "Levantine - Ahmad Khoja"
+  },
+  {
+    "fileName": "moroccan",
+    "titleAr": "أذان مغربي",
+    "titleEn": "Moroccan Style"
+  },
+  {
+    "fileName": "malaysian",
+    "titleAr": "أذان ماليزي",
+    "titleEn": "Malaysian Style"
+  },
+  {
+    "fileName": "bosnian",
+    "titleAr": "أذان بوسني",
+    "titleEn": "Bosnian Style"
+  },
+  {
+    "fileName": "fajr_makkah",
+    "titleAr": "أذان الفجر - مكة",
+    "titleEn": "Fajr - Makkah"
+  },
+  {
+    "fileName": "fajr_madinah",
+    "titleAr": "أذان الفجر - المدينة",
+    "titleEn": "Fajr - Madinah"
+  },
+  {
+    "fileName": "fajr_mishary",
+    "titleAr": "أذان الفجر - مشاري",
+    "titleEn": "Fajr - Mishary"
+  },
+  {
+    "fileName": "fajr_alqatami",
+    "titleAr": "أذان الفجر - ناصر القطامي",
+    "titleEn": "Fajr - Nasser Al Qatami"
+  }
+]
