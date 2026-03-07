@@ -1,10 +1,9 @@
 {
   "schemaVersion": "1.0.0",
   "contentVersion": "1.9.0",
-  "lastUpdated": "2026-02-21T00:00:00Z",
+  "lastUpdated": "2026-03-07T00:00:00Z",
   "baseUrl": "https://raw.githubusercontent.com/mohamedaeldin/tatmaen-content/main",
   "minimumAppVersion": "1.0.0",
-
   "content": [
     {
       "id": "books",
@@ -147,7 +146,9 @@
       "enabled": true,
       "lifecycle": "active",
       "sortOrder": 12,
-      "dependencies": ["athkar_categories"],
+      "dependencies": [
+        "athkar_categories"
+      ],
       "checksum": ""
     },
     {
@@ -171,7 +172,9 @@
       "enabled": true,
       "lifecycle": "active",
       "sortOrder": 14,
-      "dependencies": ["dua_categories"],
+      "dependencies": [
+        "dua_categories"
+      ],
       "checksum": ""
     },
     {
@@ -259,7 +262,6 @@
       "checksum": ""
     }
   ],
-
   "featureFlags": {
     "live_channels_enabled": true,
     "books_enabled": true,
@@ -279,9 +281,13 @@
     "haramain_guides_enabled": true,
     "haramain_checklists_enabled": true
   },
-
   "lifecycle": {
-    "states": ["active", "deprecated", "disabled", "removed"],
+    "states": [
+      "active",
+      "deprecated",
+      "disabled",
+      "removed"
+    ],
     "minimumDisabledDays": 30,
     "rules": {
       "active": "Content is live and visible to users",
@@ -290,11 +296,26 @@
       "removed": "Content data has been physically deleted from the repository"
     }
   },
-
   "sizeCategories": {
-    "metadata": { "maxBytes": 102400, "autoSync": true, "description": "< 100 KB - synced automatically" },
-    "standard": { "maxBytes": 1048576, "autoSync": true, "description": "100 KB - 1 MB - synced automatically" },
-    "heavy": { "maxBytes": null, "autoSync": false, "description": "> 1 MB - on-demand download only" },
-    "binary": { "maxBytes": null, "autoSync": false, "description": "Audio/image files - on-demand download only" }
+    "metadata": {
+      "maxBytes": 102400,
+      "autoSync": true,
+      "description": "< 100 KB - synced automatically"
+    },
+    "standard": {
+      "maxBytes": 1048576,
+      "autoSync": true,
+      "description": "100 KB - 1 MB - synced automatically"
+    },
+    "heavy": {
+      "maxBytes": null,
+      "autoSync": false,
+      "description": "> 1 MB - on-demand download only"
+    },
+    "binary": {
+      "maxBytes": null,
+      "autoSync": false,
+      "description": "Audio/image files - on-demand download only"
+    }
   }
 }
